@@ -19,3 +19,5 @@ site_favicon: 'favicon.png'
 google_analytics: ['UA-39576419-1', 'www.labii.com']
 
 markdown_extensions: [markdown.extensions.smarty, markdown.extensions.extra, markdown.extensions.toc]
+
+repo_url: https://github.com/Labii/labii-docs
