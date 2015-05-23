@@ -1,0 +1,8 @@
+site_name: Labii
+
+pages:
+- [index.md, Home]
+- [references.md, Reference Manager]
+- [about.md, About]
+
+theme_dir: 'bootstrap_labii'
