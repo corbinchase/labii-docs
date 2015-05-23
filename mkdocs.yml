@@ -1,8 +1,9 @@
-site_name: Labii
+site_name: Documentation for Labii.com
 
 pages:
 - [index.md, Home]
+- [profiles.md, Academic profiles]
+- [groups.md, Research groups]
 - [references.md, Reference Manager]
-- [about.md, About]
 
 theme_dir: 'bootstrap_labii'
