@@ -1,6 +1,6 @@
 # Reference manager
 
->Labii reference manager - IMDb for research papers.
+**Labii reference manager - IMDb for research papers.**
 
 ![labii-reference-manager-home](https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-home.png)
 
