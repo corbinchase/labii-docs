@@ -13,4 +13,4 @@ Traditional social networks such as Facebook focus on personal life; industrial 
 * [Reference manager](http://www.labii.com/ref/library/) - IMDb for research papers
 
 ## Content
-[Reference manager](references.md)
+1. [Reference manager](references.md)
