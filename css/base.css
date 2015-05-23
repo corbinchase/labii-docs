@@ -111,3 +111,7 @@ div.source-links {
         width: 263px;
     }
 }
+
+img {
+    max-width:100%;
+}
