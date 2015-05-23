@@ -6,6 +6,8 @@ Traditional social networks such as Facebook focus on personal life; industrial 
 
 ###Website: [http://www.labii.com](http://www.labii.com)
 
+###Screenshots
+
 ![Labii home](https://labiiblog.files.wordpress.com/2015/05/labii-home.png)
 
 ![labii-references-manager](https://labiiblog.files.wordpress.com/2015/05/labii-references-manager.png)
