@@ -159,14 +159,14 @@
 <li><a href="#search-papers-history">Search history</a></li>
 </ul>
 </li>
-<li><a href="">Paper details</a><ul>
-<li><a href="">Title</a></li>
-<li><a href="">Metrics</a></li>
-<li><a href="">Authors</a></li>
-<li><a href="">Abstract</a></li>
-<li><a href="">Paper links</a></li>
-<li><a href="">Comments</a></li>
-<li><a href="">Discussion</a></li>
+<li><a href="#paper-details">Paper details</a><ul>
+<li><a href="#paper-details-title">Title</a></li>
+<li><a href="#paper-details-metrics">Metrics</a></li>
+<li><a href="#paper-details-authors">Authors</a></li>
+<li><a href="#paper-details-abstract">Abstract</a></li>
+<li><a href="#paper-details-paper-links">Paper links</a></li>
+<li><a href="#paper-details-comments">Comments</a></li>
+<li><a href="#paper-details-discussion">Discussion</a></li>
 </ul>
 </li>
 <li><a href="#libraries">Libraries</a><ul>
@@ -231,15 +231,92 @@
 <h3 id="search-papers">Search papers</h3>
 <p>Papers can be search directly from labii reference manager. Simply put the query into search box and our webstie will display the data for you. We are using pubmed searching API. Only the papers from pubmed can be found. We are working on it to include more data.</p>
 <h4 id="search-history">Search history<a name="search-papers-history"></a></h4>
-<p>Your searching queries will be stored in our database and display it back to you for your easy access. If you did not login, your IP will be used to link to the queries.</p>
 <p><img alt="labii-reference-manager-search-history" src="https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-search-history.png" /></p>
+<p>Your searching queries will be stored in our database and display it back to you for your easy access. If you did not login, your IP will be used to link to the queries.</p>
 <hr />
 <h3 id="paper-details">Paper details</h3>
+<p>When a paper is clicked, the details of the paper will be displayed in the right column. These includes:</p>
+<h4 id="title">Title<a name="paper-details-title"></a></h4>
+<p>The title of the paper</p>
+<h4 id="metrics">Metrics<a name="paper-details-metrics"></a></h4>
+<p><img alt="labii-reference-manager-paper-details-metrics" src="https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-paper-details-metrics.png" /></p>
+<p>For each paper, these metrics data will be displayed:</p>
+<ul>
+<li>Rating score - This is an average rating score, 10 as the highest. The number of people rated also included. Mouse over to <strong>Rate this paper</strong> to rate the paper.</li>
+<li>Views - Number of times this papers was viewed</li>
+<li>Comments - Number of comments</li>
+<li>Discussion - Number of discussion</li>
+<li>Collected folders - Number of folders that contain this paper</li>
+<li>Citation in pubmed - Citaion count from Pubmed</li>
+<li>Altmetric - The social media about this paper</li>
+</ul>
+<h4 id="authors">Authors<a name="paper-details-authors"></a></h4>
+<p>On default, only the author names for the first two authors and the last author will be displayed. More details can be expanded by click the <code>arrow</code> on the right side.</p>
+<p>On the expanded author panel. Includes:</p>
+<ul>
+<li>Full author names</li>
+<li>Author affinity</li>
+<li>Journal info</li>
+</ul>
+<p>Click the <code>&lt;</code> arrow to collapse the author panel.</p>
+<p><img alt="labii-reference-manager-paper-details-author-collapose" src="https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-paper-details-author-collapose.png" /></p>
+<p><img alt="labii-reference-manager-paper-details-author-expand" src="https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-paper-details-author-expand.png" /></p>
+<h4 id="abstract">Abstract<a name="paper-details-abstract"></a></h4>
+<p>Same to the author panel, the abstract panel can be expand or collapse by clicking <code>arrow</code> on the right side.</p>
+<p><img alt="labii-reference-manager-paper-details-abstract-collapse" src="https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-paper-details-abstract-collapse.png" /></p>
+<p><img alt="labii-reference-manager-paper-details-abstract-expand" src="https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-paper-details-abstract-expand.png" /></p>
+<h4 id="paper-links">Paper links<a name="paper-details-paper-links"></a></h4>
+<p><img alt="labii-reference-manager-paper-details-links" src="https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-paper-details-links.png" /></p>
+<p>Currently, we provides:</p>
+<ul>
+<li>Pubmed link</li>
+<li>Full text link</li>
+<li>Pubmed Center link</li>
+<li>PubReader link</li>
+<li>PDF link</li>
+</ul>
+<p>The links will be hided if not available.</p>
+<h4 id="comments">Comments<a name="paper-details-comments"></a></h4>
+<p><img alt="labii-reference-manager-paper-details-comments" src="https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-paper-details-comments.png" /></p>
+<p>Short comments about this paper can be posted directly once login. For each comments, you can:</p>
+<ul>
+<li>Thumb up or thumb down a comment</li>
+<li>Reply the comment by clicking the comment icon</li>
+<li>Set as internal - to view by yourself only</li>
+<li>Hide my name - to not show your name</li>
+<li>Edit</li>
+<li>Delete</li>
+<li>Rport spam</li>
+</ul>
+<h4 id="discussion">Discussion<a name="paper-details-discussion"></a></h4>
+<p><img alt="labii-reference-manager-paper-details-discussion" src="https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-paper-details-discussion.png" /></p>
+<p>Discussion is design for long comments or long discussion. On default, the discussion details was hided. Click the discussion title to expand.</p>
+<p>Save edit functions was abailable for discussion:</p>
+<ul>
+<li>Rate discussion</li>
+<li>Comment on the discussion</li>
+<li>Set as internal - to view by yourself only</li>
+<li>Hide my name - to not show your name</li>
+<li>Edit</li>
+<li>Delete</li>
+<li>Rport spam</li>
+</ul>
 <hr />
 <h3 id="libraries">Libraries</h3>
 <p>The papers can be stored in the library papers. The folders with different levels was designed so that the topic and subtopic can be chained.</p>
 <p>The folders can be set as private or public. The public one can be viewed and followed by any one in the website, specifically designed for paper sharing.</p>
 <h4 id="add-a-folder">Add a folder</h4>
+<h4 id="edit-a-folder">Edit a folder</h4>
+<h4 id="delete-a-folder">Delete a folder</h4>
+<h4 id="folder-details">Folder details</h4>
+<h4 id="add-papers-to-a-folder">Add papers to a folder</h4>
+<h4 id="view-papers-from-a-folder">View papers from a folder</h4>
+<h4 id="delete-papers-from-a-folder">Delete papers from a folder</h4>
+<h4 id="import-papers-from-bibtex-file">Import papers from BibTex file</h4>
+<h4 id="import-papers-from-mendeley">Import papers from Mendeley</h4>
+<h4 id="export-papers-to-bibtex-file">Export papers to BibTex file</h4>
+<h4 id="view-shared-folders">View shared folders</h4>
+<h4 id="add-a-folder_1">Add a folder</h4>
 <p><img alt="labii-reference-manager-add-a-folder" src="https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-add-a-folder.png" /></p>
 <p>Click the &ldquo;+&rdquo; button next to <strong>My Folders</strong> to add a folder:</p>
 <ul>
