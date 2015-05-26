@@ -31,17 +31,17 @@ To use the refernce manager, click **My libraries** from navigation bar. Most of
 	* [Comments](#paper-details-comments)
 	* [Discussion](#paper-details-discussion)
 4. [Libraries](#libraries)
-	* [Add a folder]()
-	* [Edit a folder]()
-	* [Delete a folder]()
-	* [Folder details]()
-	* [Add papers to a folder]()
-	* [View papers from a folder]()
-	* [Delete papers from a folder]()
-	* [Import papers from BibTex file]()
-	* [Import papers from Mendeley]()
-	* [Export papers to BibTex file]()
-	* [View shared folders]()
+	* [Add a folder](#libraries-add-folder)
+	* [Edit a folder](#libraries-edit-folder)
+	* [Delete a folder](#libraries-delete-folder)
+	* [Folder details](#libraries-folder-details)
+	* [Add papers to a folder](#libraries-add-papers)
+	* [View papers from a folder](#libraries-view-paper)
+	* [Delete papers from a folder](#libraries-delete-paper)
+	* [Import papers from BibTex file](#libraries-import-bibtex)
+	* [Import papers from Mendeley](#libraries-import-mendeley)
+	* [Export papers to BibTex file](#libraries-export-bibtex)
+	* [View shared folders](#libraries-shared-folder)
 5. [Topics]()
 	* [Create a topic]()
 	* [View papers from a topic]()
@@ -50,7 +50,7 @@ To use the refernce manager, click **My libraries** from navigation bar. Most of
 6. [Journals]()
 	* [Browse all journals]()
 	* [View papers from a journal]()
-	
+
 ---
 
 ### Interface
@@ -205,19 +205,7 @@ The papers can be stored in the library papers. The folders with different level
 
 The folders can be set as private or public. The public one can be viewed and followed by any one in the website, specifically designed for paper sharing.
 
-#### Add a folder
-#### Edit a folder
-#### Delete a folder
-#### Folder details
-#### Add papers to a folder
-#### View papers from a folder
-#### Delete papers from a folder
-#### Import papers from BibTex file
-#### Import papers from Mendeley
-#### Export papers to BibTex file
-#### View shared folders
-
-#### Add a folder
+#### Add a folder<a name="libraries-add-folder"></a>
 
 ![labii-reference-manager-add-a-folder](https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-add-a-folder.png)
 
@@ -229,8 +217,56 @@ Click the "+" button next to **My Folders** to add a folder:
 * Folder Color - Our system will randomly create an color for you. The Chrome is encourged to use with our website. Many HTML5 elements used in the platform are not well supported in other browsers.
 * Share to public
 
+#### Edit a folder<a name="libraries-edit-folder"></a>
 
-#### Import from mendeley
+![labii-reference-manager-folder-details](https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-folder-details.png)
+
+After clicking a folder, the paper details will be displayed in the right column. To edit the folder, click the **Edit** and a same pop window (as add a folder) will show up. Click **Submit** to save the changes.
+
+#### Delete a folder<a name="libraries-delete-folder"></a>
+
+![labii-reference-manager-folder-delete-check](https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-folder-delete-check.png)
+
+From the folder details, click **Delete** button to delete the folder. A check window will pop out. And please note that **All the papers in this folder and its subfolder will be deleted.**. Please do this with your own risk.
+
+#### Folder details<a name="libraries-folder-details"></a>
+
+See the picture above.
+
+Thare basically two sections:
+
+* Metrics
+	* Rating score and rate the folder
+	* Number of followers
+	* Number of views
+* Comments
+
+#### Add papers to a folder<a name="libraries-add-papers"></a>
+
+![labii-reference-manager-add-papers](https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-add-papers.png)
+
+1. To add papers to a folder, selct one or more papers by click the **Check box**.
+
+	>To select / unselect all papers, click the **Check box** on the top.
+	
+	>To select / unselect one paper, click the **Check box** on the left of a paper.
+	
+2. Click the green **Add button**, and select a folder.
+3. The selected papers will be added to the selected folder.
+
+#### View papers from a folder<a name="libraries-view-paper"></a>
+
+Click a folder from left column to view the papers.
+
+#### Delete papers from a folder<a name="libraries-delete-paper"></a>
+
+![labii-reference-manager-delete-papers](https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-delete-papers.png)
+
+1. Select one or more papers to delete
+2. Click the red **Delete button** to delete
+
+#### Import papers from BibTex file<a name="libraries-import-bibtex"></a>
+#### Import papers from Mendeley<a name="libraries-import-mendeley"></a>
 
 1. Create an empty folder under "Libraries" panel. (Optional). You can use any folders that you already created;
 2. Select a folder to store the papers from Mendeley. Click the folder;
@@ -245,6 +281,20 @@ Click the "+" button next to **My Folders** to add a folder:
 
 6. Check your email and refresh page to see the newly imported papers.
 > Note: The duplicated papers will be automatically ignored.
+
+#### Export papers to BibTex file<a name="libraries-export-bibtex"></a>
+
+
+#### View shared folders<a name="libraries-shared-folder"></a>
+
+![labii-reference-manager-shared-folders](https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-shared-folders.png)
+
+1. Click the blue icon next to **Shared Folders** to browse all shared folders.
+2. The folder name, short description, author, and date created will be display for each folder
+3. Click the **Follow** to subscribe a shared folder.
+4. Specific folders can be search directly from the search box
+5. Click a folder bellow the Shard Folders to view the papers inside a folder
+
 
 ---
 
