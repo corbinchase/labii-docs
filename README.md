@@ -1,4 +1,4 @@
-# Documentation for Labii.com
+# Documentation for LabII.com
 
 **Labii is a professional network for academics.**
 
