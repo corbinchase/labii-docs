@@ -1,10 +1,10 @@
-# Reference manager
+# Reference Manager
 
-**Labii reference manager - IMDb for research papers.**
+**Labii reference manager - IMDb for research papers**
 
 ![labii-reference-manager-home](https://labiiblog.files.wordpress.com/2015/05/labii-reference-manager-home.png)
 
-Labii reference manager is a online platform for commenting, rating and managing research papers. There are > 3000 papers released every day from Pubmed, it is very difficult to find the good relevant papers to read. To select a good paper is somehow similar in the way to choose a good movie. It does not necessary a famous director or producer will always release good movies. IMDb is a good platform for people to rate the movies after they watched them. And the IMDb score, in turn, benefits those who have not watched the movie in choosing good movies.
+Labii reference manager is an online platform for commenting, rating and managing research papers. There are > 3000 papers released every day from Pubmed, it is very difficult to find the good relevant papers to read. To select a good paper is somehow similar in the way to choose a good movie. It does not necessary a famous director or producer will always release good movies. IMDb is a good platform for people to rate the movies after they watched them. And the IMDb score, in turn, benefits those who have not watched the movie in choosing good movies.
 
 IMDb utilize everyone's knowledge in judging movies. The same system can be applies to research papers. A such system can benefit the readers in choosing right papers to read and understanding the paers by reading others' comments. More importantly, it connects the authors and readers, and a reader with other readers.
 

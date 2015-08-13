@@ -1,3 +1,3 @@
-# Research groups
+# Research Groups
 
-we are working on it...
+This page is under construction but we'll notify you when it's complete.
