@@ -5,7 +5,8 @@ from django.core.urlresolvers import reverse, resolve
 from django.conf import settings
 from accounts.views import add_visiting_record
 from metrics.tasks import add_view_count
-from common.scripts import id2eid
+from common.scripts import id2eid, writeIntoDB
+from docs.models import *
 
 def get_md(filename):
 	md = None
@@ -13,21 +14,13 @@ def get_md(filename):
 	did = None
 	desb = None
 	# prepare the id
-	ids = {}
-	topid = 1
-	with open("%s/docs/docs_id.tsv" % (settings.BASE_DIR),"r") as fh:
-		for line in fh:
-			line = line.replace("\n","").replace("\r","")
-			tmp = line.split("\t")
-			ids[tmp[1]] = tmp[0]
-			if int(tmp[0]) > topid:
-				topid = int(tmp[0])
-	# added the new id if the file not exists
-	if not filename in ids:
-		ids[filename] = topid + 1
-		fh = open("%s/docs/docs_id.tsv" % (settings.BASE_DIR),"a")
-		fh.write("%s\t%s\n" % (ids[filename],filename))
-		fh.close()
+	if Docs.objects.filter(titlename=filename).exists():
+		did = Docs.objects.get(titlename=filename).id
+	else:
+		d = {}
+		d["titlename"] = filename
+		dd = writeIntoDB(Docs,d)
+		did = dd.id
 	# get the file content
 	with open("%s/docs/docs/%s" % (settings.BASE_DIR,filename),"r") as newfile:
 		md = newfile.read()
@@ -45,7 +38,7 @@ def get_md(filename):
 		link = "<a href='%s'>Labii ELN</a>" % reverse("notes_support")
 	else:
 		assert False
-	return (ids[filename],title,link,desb,md)
+	return (did,title,link,desb,md)
 
 def schema_docs(request,data):
 	template = 'base_tlr.html'
